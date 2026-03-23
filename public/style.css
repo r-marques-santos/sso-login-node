@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.logout {
+  background: red;
+  color: white;
+}
